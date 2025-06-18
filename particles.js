@@ -28,7 +28,7 @@ particlesJS("particles-js", {
       random: true
     },
     line_linked: {
-      enable: false // 🔥 esto apaga los hilos
+      enable: false 
     },
     move: {
       enable: true,
