@@ -128,3 +128,33 @@ header h1 {
   background-color: #0d0d0d; 
 }
 
+@media (max-width: 768px) {
+  .fila-central {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .descripcion {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+
+  .banner img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .btn-descarga,
+  .btn-discord {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+}
+
+
